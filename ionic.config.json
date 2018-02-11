@@ -1,0 +1,8 @@
+{
+  "name": "MySchoolApp",
+  "app_id": "8444d7e3",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
