@@ -1,0 +1,83 @@
+
+<ion-header no-border>
+  <ion-navbar color="secondary">
+        <ion-title>
+        MySchoolApp
+       </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding >
+  <ion-card >
+    <ion-card-header > 
+      Current Weather update
+    </ion-card-header>
+    <ion-card-content>
+
+    </ion-card-content>
+  </ion-card>
+
+
+
+  <ion-grid>
+        <ion-row>
+            <ion-col col-6 col-sm>
+              <ion-card (click)= "openEvent(EventsPage)"   class="card-background-page">
+                  <img src="assets/imgs/mar.jpg"/>
+                  <div class="card-title">Events</div>
+              </ion-card>
+            </ion-col>
+
+            <ion-col col-6 col-sm>
+              <ion-card (click)= "OpenChecker(CheckerPage)" color = "default">
+                  <img src="assets/imgs/mar.jpg"/>
+                  <div class="card-title">CPGA</div>
+              </ion-card>
+            </ion-col>
+    
+      </ion-row>
+
+
+      
+
+      <ion-row>
+          <ion-col col-6 >
+           <ion-card (click)= "OpenAbout(AboutPage)" color = "default">
+            <img src="assets/imgs/mar.jpg"/>
+          <div class="card-title" style="text-align:center"><strong>About</strong> </div>
+           </ion-card>
+
+        </ion-col>
+        <ion-col col-6 >
+         <ion-card (click)= "OpenContact(ContactPage)">
+          <img src= "assets/imgs/mar.jpg"/>
+           <div class="card-title"style="text-align:center"> <strong>Contact</strong> </div>
+         </ion-card>
+        </ion-col>
+        
+      </ion-row>
+
+
+      <ion-row>
+          <ion-col col-6 >
+           <ion-card (click)= "OpenExco(ExcoPage)" >
+            <img src="assets/imgs/mar.jpg"/>
+            <div class="card-title"style="text-align:center"><strong>Executives</strong> </div>
+           </ion-card>
+        </ion-col>
+
+        <ion-col col-6 >
+          <ion-card (click)= "openSetting(SettingPage)" >
+            <img src="assets/imgs/mar.jpg"/>
+            <div class="card-title" style="text-align:center"><strong>Settings</strong> </div>
+           
+          </ion-card>
+        </ion-col>
+        
+      </ion-row>
+  
+</ion-grid>
+
+
+</ion-content>
